@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="Page-1" id="rbN9uuYBjmHPTUu1irCI">
-    <mxGraphModel dx="1124" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           <mxGeometry height="30" width="140" y="120" as="geometry" />
         </mxCell>
         <mxCell id="8Ve4RREZAQvm6GCoqSIB-5" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Buyer" vertex="1">
-          <mxGeometry height="60" width="140" x="240" y="280" as="geometry" />
+          <mxGeometry height="60" width="140" x="250" y="330" as="geometry" />
         </mxCell>
         <mxCell id="8Ve4RREZAQvm6GCoqSIB-7" parent="8Ve4RREZAQvm6GCoqSIB-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="totalBooksBought" vertex="1">
           <mxGeometry height="30" width="140" y="30" as="geometry" />
@@ -32,7 +32,7 @@
           <mxGeometry height="30" width="140" y="30" as="geometry" />
         </mxCell>
         <mxCell id="8Ve4RREZAQvm6GCoqSIB-13" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Book" vertex="1">
-          <mxGeometry height="300" width="140" x="450" y="55" as="geometry" />
+          <mxGeometry height="300" width="140" x="490" y="55" as="geometry" />
         </mxCell>
         <mxCell id="8Ve4RREZAQvm6GCoqSIB-35" parent="8Ve4RREZAQvm6GCoqSIB-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="bookID" vertex="1">
           <mxGeometry height="30" width="140" y="30" as="geometry" />
@@ -62,7 +62,7 @@
           <mxGeometry height="30" width="140" y="270" as="geometry" />
         </mxCell>
         <mxCell id="8Ve4RREZAQvm6GCoqSIB-17" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="BooksOnCart" vertex="1">
-          <mxGeometry height="90" width="140" x="670" y="55" as="geometry" />
+          <mxGeometry height="90" width="140" x="710" y="55" as="geometry" />
         </mxCell>
         <mxCell id="8Ve4RREZAQvm6GCoqSIB-38" parent="8Ve4RREZAQvm6GCoqSIB-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="numberOfBooks" vertex="1">
           <mxGeometry height="30" width="140" y="30" as="geometry" />
@@ -83,11 +83,11 @@
         </mxCell>
         <mxCell id="8Ve4RREZAQvm6GCoqSIB-74" connectable="0" parent="8Ve4RREZAQvm6GCoqSIB-72" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" value="0...1" vertex="1">
           <mxGeometry relative="1" x="1" as="geometry">
-            <mxPoint x="-128" y="285" as="offset" />
+            <mxPoint x="-128" y="295" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8Ve4RREZAQvm6GCoqSIB-21" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="OrderSummary" vertex="1">
-          <mxGeometry height="120" width="140" x="450" y="400" as="geometry" />
+          <mxGeometry height="120" width="140" x="490" y="400" as="geometry" />
         </mxCell>
         <mxCell id="8Ve4RREZAQvm6GCoqSIB-22" parent="8Ve4RREZAQvm6GCoqSIB-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="orderID" vertex="1">
           <mxGeometry height="30" width="140" y="30" as="geometry" />
@@ -112,17 +112,16 @@
         <mxCell id="8Ve4RREZAQvm6GCoqSIB-43" connectable="0" parent="8Ve4RREZAQvm6GCoqSIB-41" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" value="0...1" vertex="1">
           <mxGeometry relative="1" x="1" as="geometry" />
         </mxCell>
-        <mxCell id="8Ve4RREZAQvm6GCoqSIB-44" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+        <mxCell id="8Ve4RREZAQvm6GCoqSIB-44" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.423;entryY=0.061;entryDx=0;entryDy=0;entryPerimeter=0;" target="8Ve4RREZAQvm6GCoqSIB-5" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="30" y="390" as="sourcePoint" />
-            <mxPoint x="190" y="390" as="targetPoint" />
+            <mxPoint x="310" y="120" as="sourcePoint" />
+            <mxPoint x="310" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8Ve4RREZAQvm6GCoqSIB-45" connectable="0" parent="8Ve4RREZAQvm6GCoqSIB-44" style="resizable=0;html=1;whiteSpace=wrap;align=left;verticalAlign=bottom;" value="M" vertex="1">
-          <mxGeometry relative="1" x="-1" as="geometry" />
-        </mxCell>
-        <mxCell id="8Ve4RREZAQvm6GCoqSIB-46" connectable="0" parent="8Ve4RREZAQvm6GCoqSIB-44" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" value="N" vertex="1">
-          <mxGeometry relative="1" x="1" as="geometry" />
+        <mxCell id="8Ve4RREZAQvm6GCoqSIB-46" connectable="0" parent="8Ve4RREZAQvm6GCoqSIB-44" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" value="0...*" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="8Ve4RREZAQvm6GCoqSIB-47" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
@@ -202,15 +201,15 @@
             <mxPoint y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8Ve4RREZAQvm6GCoqSIB-67" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=-0.014;entryY=0.747;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="8Ve4RREZAQvm6GCoqSIB-38" value="">
+        <mxCell id="8Ve4RREZAQvm6GCoqSIB-67" edge="1" parent="1" source="8Ve4RREZAQvm6GCoqSIB-36" style="endArrow=none;html=1;rounded=0;entryX=-0.014;entryY=0.747;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.018;exitY=0.214;exitDx=0;exitDy=0;exitPerimeter=0;" target="8Ve4RREZAQvm6GCoqSIB-38" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="590" y="137.5" as="sourcePoint" />
+            <mxPoint x="590" y="140" as="sourcePoint" />
             <mxPoint x="670" y="62.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8Ve4RREZAQvm6GCoqSIB-68" connectable="0" parent="8Ve4RREZAQvm6GCoqSIB-67" style="resizable=0;html=1;whiteSpace=wrap;align=left;verticalAlign=bottom;" value="1" vertex="1">
           <mxGeometry relative="1" x="-1" as="geometry">
-            <mxPoint y="3" as="offset" />
+            <mxPoint x="-3" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8Ve4RREZAQvm6GCoqSIB-69" connectable="0" parent="8Ve4RREZAQvm6GCoqSIB-67" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" value="0...1" vertex="1">
@@ -218,8 +217,43 @@
             <mxPoint x="2" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8Ve4RREZAQvm6GCoqSIB-77" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="&lt;b&gt;Questions to ask the professor later&lt;/b&gt;:&lt;div&gt;- Q1: Do we need to create/keep track of an ID for each instance of &quot;BooksOnCart&quot;?&amp;nbsp; (aka creating ID for the list of books that are in my cart and purchase has not been made yet?) (Do we need to store this information? If yes, how the ID of this class different than the orderID in the OrderSummary?)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Q2: Because we do not yet know whether the buyers are already established customers until they check out, our website technically doesn&#39;t remember the cart of guests if they exit the website without making a&amp;nbsp;purchase, right?&amp;nbsp;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="250" width="250" x="840" y="40" as="geometry" />
+        <mxCell id="8Ve4RREZAQvm6GCoqSIB-77" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="&lt;b&gt;Questions to ask the professor later&lt;/b&gt;:&lt;div&gt;- Q1: Do we need to create/keep track of an ID for each instance of &quot;BooksOnCart&quot;?&amp;nbsp; (aka creating ID for the list of books that are in my cart and purchase has not been made yet?) (Do we need to store this information? If yes, how the ID of this class different than the orderID in the OrderSummary?)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Q2: Because we do not yet know whether the buyers are already established customers until they check out, our website technically doesn&#39;t remember the cart of guests if they exit the website without making a&amp;nbsp;purchase, right?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Q3: Can a person decide to buy and finish creating an account, but then change their mind and cancelling the check out process? In that case, are their information still being stored in database?&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="280" x="880" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lfYAllVreIiqYH2lNMTm-4" connectable="0" parent="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" value="0...*" vertex="1">
+          <mxGeometry x="300" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lfYAllVreIiqYH2lNMTm-5" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Comments" vertex="1">
+          <mxGeometry height="80" width="140" x="340" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="lfYAllVreIiqYH2lNMTm-6" parent="lfYAllVreIiqYH2lNMTm-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="commentText" vertex="1">
+          <mxGeometry height="30" width="140" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lfYAllVreIiqYH2lNMTm-10" parent="lfYAllVreIiqYH2lNMTm-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ranking" vertex="1">
+          <mxGeometry height="30" width="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lfYAllVreIiqYH2lNMTm-11" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=-0.021;entryY=0.053;entryDx=0;entryDy=0;entryPerimeter=0;" target="lfYAllVreIiqYH2lNMTm-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="215" as="sourcePoint" />
+            <mxPoint x="360" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lfYAllVreIiqYH2lNMTm-12" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8Ve4RREZAQvm6GCoqSIB-39" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="480.28" y="462.4599999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lfYAllVreIiqYH2lNMTm-13" connectable="0" parent="lfYAllVreIiqYH2lNMTm-12" style="resizable=0;html=1;whiteSpace=wrap;align=left;verticalAlign=bottom;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="10" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lfYAllVreIiqYH2lNMTm-14" connectable="0" parent="lfYAllVreIiqYH2lNMTm-12" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" value="1...*&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry">
+            <mxPoint x="-11" y="7" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
